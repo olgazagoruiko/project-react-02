@@ -1,0 +1,55 @@
+#root{
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  background-color: rgb(217, 223, 223);
+}
+.form-add-user{
+  outline: 1px solid #cdcccc;
+  width: 400px;
+  margin:10px auto;
+  padding: 20px;
+}
+.form-field{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.form-field input{
+  margin: 0;
+  padding: 5px 5px;
+}
+.form-field label {
+  margin-bottom: 5px;
+}
+.form-btn{
+  text-align: center;
+}
+.form-btn button{
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(243, 236, 228);
+  border: 1px solid rgb(138, 138, 138);
+}
+.table-users{
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px;
+}
+.table-caption {
+  font-size: 24px;
+  font-weight: bold;
+}
+.table-users td, th, tr{
+  border: 1px solid rgb(138, 138, 138);
+  border-collapse: collapse;
+  padding: 2px 5px;
+  text-align: center;
+}
+.table-users th{
+background-color: rgb(243, 236, 228);
+}
